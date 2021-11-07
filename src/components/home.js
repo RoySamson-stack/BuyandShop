@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import {BrowserRouter , Route, Routes, Link} from 'react-router-dom';
-
+import "./home.css"
 
 function Home() {
     return (
       <div>
-        <header className="App-header">
-          <title>Welcome</title>
-          <Link to="/">Home</Link>
-          <Link to="/store">Store</Link>
-        </header> </div>
+        <h1>Home</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec eget nunc eget nunc efficitur efficitur.
+          Nullam euismod, nisl eget tincidunt consectetur,
+          nunc nisl aliquet nunc, eget tincidunt nisl nunc eu nunc.
+          Nulla facilisi.
+        </p>
+      </div>
     );
   
 }
