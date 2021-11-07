@@ -1,11 +1,12 @@
 import Product from './products';
+import "./store.css"
 import tv from  "../img/tv.png"
 
 
 function Store(){
   return(
     <div>
-      <div class="grid">
+      <div class="products">
       <Product 
        image={tv}
        name="image"
