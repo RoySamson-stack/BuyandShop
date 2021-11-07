@@ -1,6 +1,5 @@
 
 
-
 function Products({image, name, description, price}){
   <div class="">
     <img src={image} alt={name} />
