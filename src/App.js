@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <Router>
+        <Home />
         <Routes>
         <Route path="/home" element={<Home />} /> 
         <Route path="/store" element={<Store />} />
